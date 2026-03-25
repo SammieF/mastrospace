@@ -1,12 +1,261 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mastrospace — Industrial Cleaning, Furniture & Landscaping</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <script>
-        console.log("Hello, Mastrospace!");
-    </script>
+
+  <nav class="nav">
+    <div class="nav-logo">MASTRO<span>SPACE</span></div>
+    <ul class="nav-links">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Get a Quote</a>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Professional Services</p>
+      <h1 class="hero-title">We Keep Your<br /><em>Space</em> Immaculate.</h1>
+      <p class="hero-sub">Industrial cleaning, bespoke furniture works, and precision landscaping — done right, every time.</p>
+      <div class="hero-actions">
+        <a href="#services" class="btn-primary">Explore Services</a>
+        <a href="#contact" class="btn-ghost">Talk to Us →</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span>EST.</span>
+      <strong>2010</strong>
+    </div>
+  </header>
+
+  <section class="ticker">
+    <div class="ticker-inner">
+      <span>Industrial Cleaning</span>
+      <span class="dot">◆</span>
+      <span>Furniture Works</span>
+      <span class="dot">◆</span>
+      <span>Landscaping</span>
+      <span class="dot">◆</span>
+      <span>Industrial Cleaning</span>
+      <span class="dot">◆</span>
+      <span>Furniture Works</span>
+      <span class="dot">◆</span>
+      <span>Landscaping</span>
+      <span class="dot">◆</span>
+      <span>Industrial Cleaning</span>
+      <span class="dot">◆</span>
+      <span>Furniture Works</span>
+      <span class="dot">◆</span>
+      <span>Landscaping</span>
+      <span class="dot">◆</span>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="label">What We Do</span>
+        <h2>Three Pillars of<br />Exceptional Service</h2>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card" data-num="01">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 52L24 16L32 26L42 10L52 44" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="32" cy="26" r="4" fill="currentColor"/>
+              <path d="M8 56h48" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Industrial Cleaning</h3>
+          <p>Heavy-duty cleaning solutions for factories, warehouses, commercial kitchens, and large facilities. We remove grease, grime, and industrial residue to the highest standards.</p>
+          <ul>
+            <li>Pressure washing & steam cleaning</li>
+            <li>Post-construction cleanup</li>
+            <li>Hazardous waste handling</li>
+            <li>Scheduled maintenance programs</li>
+          </ul>
+          <a href="#contact" class="card-link">Request a Service →</a>
+        </div>
+
+        <div class="service-card featured" data-num="02">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="32" width="44" height="20" rx="2" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M18 32V20a4 4 0 0 1 4-4h20a4 4 0 0 1 4 4v12" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M10 44h44" stroke="currentColor" stroke-width="2"/>
+              <circle cx="22" cy="52" r="3" fill="currentColor"/>
+              <circle cx="42" cy="52" r="3" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Furniture Works</h3>
+          <p>Custom fabrication, restoration, and installation of furniture for offices, hotels, and residential spaces. From concept to completion, we craft pieces that last.</p>
+          <ul>
+            <li>Custom design & fabrication</li>
+            <li>Restoration & upholstery</li>
+            <li>Commercial fit-outs</li>
+            <li>Installation & assembly</li>
+          </ul>
+          <a href="#contact" class="card-link">Request a Service →</a>
+        </div>
+
+        <div class="service-card" data-num="03">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 52V28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M32 28C32 28 20 22 16 12c8 2 16 8 16 16z" stroke="currentColor" stroke-width="2" fill="currentColor" fill-opacity="0.15"/>
+              <path d="M32 36C32 36 44 30 48 20c-8 2-16 8-16 16z" stroke="currentColor" stroke-width="2" fill="currentColor" fill-opacity="0.15"/>
+              <path d="M12 52h40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Landscaping</h3>
+          <p>Transform outdoor spaces with expert design, planting, and ongoing maintenance. We create green environments that enhance your property's beauty and value.</p>
+          <ul>
+            <li>Garden design & installation</li>
+            <li>Lawn care & maintenance</li>
+            <li>Tree trimming & removal</li>
+            <li>Irrigation systems</li>
+          </ul>
+          <a href="#contact" class="card-link">Request a Service →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-visual">
+        <div class="about-block a1"></div>
+        <div class="about-block a2"></div>
+        <div class="about-stat">
+          <strong>500+</strong>
+          <span>Projects<br />Completed</span>
+        </div>
+        <div class="about-stat s2">
+          <strong>15+</strong>
+          <span>Years of<br />Experience</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="label">About Us</span>
+        <h2>Built on Precision.<br />Driven by Pride.</h2>
+        <p>Mastrospace was founded with a single belief: every space deserves to be treated with care. Whether we're deep-cleaning an industrial facility, crafting a bespoke furniture piece, or reshaping an outdoor garden, we bring the same level of mastery to every job.</p>
+        <p>Our team of skilled professionals has served hundreds of clients across residential, commercial, and industrial sectors. We don't just complete tasks — we raise the standard.</p>
+        <div class="about-vals">
+          <div class="val"><span>✦</span> Reliability</div>
+          <div class="val"><span>✦</span> Attention to Detail</div>
+          <div class="val"><span>✦</span> Client-First Approach</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="label">Get In Touch</span>
+          <h2>Let's Work<br />Together.</h2>
+          <p>Ready to transform your space? Reach out and we'll get back to you within 24 hours with a tailored quote.</p>
+          <div class="contact-details">
+            <div class="detail">
+              <div class="detail-icon">📍</div>
+              <div>
+                <strong>Location</strong>
+                <span>Lagos, Nigeria</span>
+              </div>
+            </div>
+            <div class="detail">
+              <div class="detail-icon">📞</div>
+              <div>
+                <strong>Phone</strong>
+                <span>+234 800 000 0000</span>
+              </div>
+            </div>
+            <div class="detail">
+              <div class="detail-icon">✉️</div>
+              <div>
+                <strong>Email</strong>
+                <span>hello@mastrospace.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interested In</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="cleaning">Industrial Cleaning</option>
+                <option value="furniture">Furniture Works</option>
+                <option value="landscaping">Landscaping</option>
+                <option value="multiple">Multiple Services</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message <span>→</span></button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">MASTRO<span>SPACE</span></div>
+      <p>© 2025 Mastrospace. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const note = document.getElementById('formNote');
+      note.textContent = '✔ Message sent! We\'ll be in touch within 24 hours.';
+      note.style.color = '#a3e635';
+      this.reset();
+    });
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.service-card, .about-inner, .contact-wrapper').forEach(el => observer.observe(el));
+  </script>
+
 </body>
 </html>
